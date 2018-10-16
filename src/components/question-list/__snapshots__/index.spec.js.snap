@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing question list component should rendering with loader 1`] = `
+<div
+  className="loader-wrapper"
+>
+  <div
+    className="loader"
+  />
+</div>
+`;
+
+exports[`testing question list component should rendering with questions 1`] = `
+<div>
+  <div
+    className="App-intro"
+  >
+    <div
+      className="question-indicator question-indicator__unknown"
+      onClick={[Function]}
+    >
+      <span
+        className="question-indicator--text"
+      >
+        1
+      </span>
+    </div>
+    <div
+      className="question-indicator question-indicator__unknown"
+      onClick={[Function]}
+    >
+      <span
+        className="question-indicator--text"
+      >
+        2
+      </span>
+    </div>
+  </div>
+  <div>
+    <h4>
+      Some Question
+    </h4>
+    <ul>
+      <li
+        className="answer-element"
+        onClick={[Function]}
+      >
+        Some 1
+      </li>
+    </ul>
+  </div>
+</div>
+`;

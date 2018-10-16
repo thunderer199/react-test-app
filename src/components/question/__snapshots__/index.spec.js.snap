@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question should render payload right with answers 1`] = `
+<div>
+  <h4>
+    test
+  </h4>
+  <ul>
+    <li
+      className="answer-element"
+      onClick={[Function]}
+    >
+      some answer
+    </li>
+    <li
+      className="answer-element"
+      onClick={[Function]}
+    >
+      some answer
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Question should render payload right without answers 1`] = `
+<div>
+  <h4>
+    test
+  </h4>
+  <ul />
+</div>
+`;

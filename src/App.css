@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  height: 100px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: scale(0.75); }
+  to { transform: scale(1); }
+}

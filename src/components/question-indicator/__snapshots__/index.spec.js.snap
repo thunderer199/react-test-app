@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionIndicator should render right basic example 1`] = `
+<div
+  className="question-indicator question-indicator__unknown"
+  onClick={undefined}
+>
+  <span
+    className="question-indicator--text"
+  >
+    1
+  </span>
+</div>
+`;
+
+exports[`QuestionIndicator should render right for right answered questions 1`] = `
+<div
+  className="question-indicator question-indicator__right"
+  onClick={undefined}
+>
+  <span
+    className="question-indicator--text"
+  >
+    1
+  </span>
+</div>
+`;
+
+exports[`QuestionIndicator should render right for wrong answered questions 1`] = `
+<div
+  className="question-indicator question-indicator__wrong"
+  onClick={undefined}
+>
+  <span
+    className="question-indicator--text"
+  >
+    1
+  </span>
+</div>
+`;

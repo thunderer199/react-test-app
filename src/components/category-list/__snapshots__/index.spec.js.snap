@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing category list component should rendering spinner when loading 1`] = `
+<div
+  className="loader-wrapper"
+>
+  <div
+    className="loader"
+  />
+</div>
+`;
+
+exports[`testing category list component should rendering with empty list 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`testing category list component should rendering with list 1`] = `
+<div>
+  <ul>
+    <div>
+      <li
+        onClick={[Function]}
+      >
+        Электробезопасность
+      </li>
+      <hr />
+    </div>
+    <div>
+      <li
+        onClick={[Function]}
+      >
+        Тендеры
+      </li>
+      <hr />
+    </div>
+  </ul>
+</div>
+`;
